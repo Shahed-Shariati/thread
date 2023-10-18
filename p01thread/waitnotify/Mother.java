@@ -7,7 +7,7 @@ public class Mother {
     public static void main(String[] args) {
 
             ArrayList<Cookie> dish = new ArrayList<Cookie>();
-            dish.add( new Cookie() );
+            dish.add(new Cookie());
 
 
             new Child("child1", dish ).start();
