@@ -1,6 +1,8 @@
 package org.example.thread.p01thread.stream.p05compare;
 
-public class Human {
+import java.util.Comparator;
+
+public class Human  {
     private int age;
     private String name;
 
@@ -32,5 +34,10 @@ public class Human {
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+
+    public static int compare(Human o1, Human o2) {
+        return Integer.compare(o1.getAge(),o2.getAge());
     }
 }

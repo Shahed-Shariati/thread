@@ -16,6 +16,7 @@ public class Test {
 
 
         Arrays.sort(humans,(o1, o2) ->  o1.getName().compareTo(o2.getName()));
+        Arrays.sort(humans,Human::compare);
 
 
         Arrays.sort(humans, new Comparator<Human>() {

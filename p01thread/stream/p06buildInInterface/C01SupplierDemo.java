@@ -7,11 +7,21 @@ import java.util.function.Supplier;
 public class C01SupplierDemo {
     public static void main(String[] args) {
 //        T get();
+
+     /*   String get (){
+            return "Hello lamda";
+        }*/
+
+
 //        LocalDate now()
 
-        Supplier<String> supplier1=() ->  "Hello lamda";
+        Supplier<String> supplier1= () ->  "Hello lamda";
 
         System.out.println(supplier1.get());
+
+     /* Human get(){
+            return new Human(12);
+        }*/
 
         Supplier<Human> supplier2=() -> new Human(12);
 

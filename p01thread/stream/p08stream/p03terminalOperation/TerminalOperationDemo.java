@@ -24,8 +24,8 @@ public class TerminalOperationDemo {
        /* boolean b = cars.anyMatch(s -> s.startsWith("B"));
         System.out.println(b);*/
 
-   /*     boolean b = cars.allMatch(s -> s.startsWith("B"));
-        System.out.println(b);*/
+        boolean b = cars.allMatch(s -> s.startsWith("B"));
+        System.out.println(b);
 
        /* boolean b = cars.noneMatch(s -> s.startsWith("B"));
         System.out.println(b);*/

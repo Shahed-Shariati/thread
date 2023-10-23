@@ -1,6 +1,7 @@
 package org.example.thread.p01thread.stream.p08stream.p05test;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 public class CarTest {
     public static void main(String[] args) {
@@ -20,8 +21,9 @@ public class CarTest {
                 new Car("bmw", "sefid", 2001, 44444)
         );
 
-//          cars.stream().filter(car -> car.getColour().equals("sefid"))
-//                       .forEach(System.out::println);
+       /*   cars.stream().filter(car -> car.getColour().equals("sefid"))
+                       .forEach(System.out::println);*/
+
 
 
 

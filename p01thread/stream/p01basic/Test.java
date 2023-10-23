@@ -5,6 +5,7 @@ import java.util.stream.IntStream;
 
 public class Test {
     public static void main(String[] args) {
+
         //int[] num=new int[10];
         //loop ===>sum
         //avg

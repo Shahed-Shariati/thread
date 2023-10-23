@@ -6,7 +6,10 @@ public class C02ConsumerDemo {
     public static void main(String[] args) {
 //        void accept(T t);
 
-        Consumer<String> consumer1=(String s) -> System.out.println(s);
+//        void println(String x)
+
+        Consumer<String> consumer1 = (s) -> System.out.println(s);
+
 
 //        Consumer<String> consumer1=(String entity) -> repository.save(entity);
 
